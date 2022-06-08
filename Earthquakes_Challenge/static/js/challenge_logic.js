@@ -174,9 +174,9 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geoj
   onEachFeature: function(feature, layer) {
     layer.bindPopup("Magnitude: " + feature.properties.mag + "<br>Location: " + feature.properties.place);
   }
-  })
+  }).addTo(majorEarthquakes);
 // 8. Add the major earthquakes layer to the map.
-  .addTo(majorEarthquakes);
+  majorEarthquakes.addTo(map);
 // 9. Close the braces and parentheses for the major earthquake data.
 });
 
