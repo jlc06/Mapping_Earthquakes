@@ -1,1 +1,3 @@
-# Mapping_Earthquakes
+# Mapping Earthquakes
+## Purpose
+After landing a position as a data visualization specialist for the Disaster Reporting Network, I was tasked with building insightful data visualizations with interactive features on earthquakes around the world. The head of the earthquake disaster response team, Basil, hopes these visualizations will help generate positive buzz about our non-profit. Using the latest geo-JSON data, JavaScript, D3 and Leaflet libraries, I plotted our initial data on a mapbox map. The maps show the magnitude and location of earthquakes around the world. After the initial project, Basil and my mentor, Sadhana, wanted to enhance the visualizations to see the earthquake data in relation to tectonic plates’ locations on the earth, all the earthquakes with a magnitude greater than 4.5, and a third map layer to shake things up. 
